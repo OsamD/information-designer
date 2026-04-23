@@ -9,13 +9,13 @@ Inspired by the work of [Federica Fragapane](https://www.behance.net/FedericaFra
 ## Install
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/information-designer --all
+npx skills add OsamD/information-designer --all
 ```
 
 Or pick only what you need:
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/information-designer --skill data-narrative,color-semantics
+npx skills add OsamD/information-designer --skill data-narrative,color-semantics
 ```
 
 Restore a team's exact skill set from the lock file:
