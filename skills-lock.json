@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "skills": {
+    "data-narrative": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "data-narrative"
+    },
+    "geometric-encoding": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "geometric-encoding"
+    },
+    "color-semantics": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "color-semantics"
+    },
+    "typographic-structure": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "typographic-structure"
+    },
+    "custom-svg-viz": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "custom-svg-viz"
+    },
+    "data-annotation": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "data-annotation"
+    },
+    "layout-composition": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "layout-composition"
+    }
+  }
+}
