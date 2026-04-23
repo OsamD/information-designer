@@ -49,6 +49,13 @@
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
       "ref": "main",
       "skillPath": "layout-composition"
+    },
+    "information-designer": {
+      "source": "YOUR_GITHUB_USERNAME/information-designer",
+      "sourceType": "git",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/information-designer",
+      "ref": "main",
+      "skillPath": "information-designer"
     }
   }
 }

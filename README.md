@@ -30,6 +30,7 @@ npx skills experimental_install
 
 | Skill | What it covers |
 |-------|---------------|
+| [`information-designer`](#information-designer) | **Orchestrator** — chains all 7 skills into a full end-to-end pipeline |
 | [`data-narrative`](#data-narrative) | Story structure, information hierarchy, form selection |
 | [`geometric-encoding`](#geometric-encoding) | Mapping data to shape, angle, radius, and area |
 | [`color-semantics`](#color-semantics) | Palettes, semantic roles, accessibility |
@@ -37,6 +38,21 @@ npx skills experimental_install
 | [`custom-svg-viz`](#custom-svg-viz) | Bespoke SVG construction, computed geometry, print export |
 | [`data-annotation`](#data-annotation) | Editorial annotations that interpret, not just describe |
 | [`layout-composition`](#layout-composition) | Grid systems, visual weight, white space, multi-format |
+
+---
+
+### `information-designer`
+
+The master orchestrator. Runs the full 7-phase pipeline in sequence — each phase must complete before the next begins, and the output of each phase becomes the input to the next.
+
+```
+data-narrative → geometric-encoding → color-semantics → typographic-structure
+      → custom-svg-viz → data-annotation → layout-composition → deliverable
+```
+
+After delivery, revision always returns to the earliest affected phase — never patches the surface of a broken argument.
+
+**Trigger**: "design this from scratch", "create a full infographic", "end-to-end data piece"
 
 ---
 
