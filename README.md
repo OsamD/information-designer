@@ -1,30 +1,24 @@
 # The Information Designer
 
-A skill set for Claude Code that encodes the practice of information design — transforming data into intentional, beautiful, argued visual communication.
+Claude Code skills for information design — data narrative, geometry, color, typography, annotation, and composition.
 
-Inspired by the work of [Federica Fragapane](https://www.behance.net/FedericaFragapane), whose information design practice demonstrates that data visualization is a form of authorship: rigorous, geometric, and deeply human.
+Inspired by the work of [Federica Fragapane](https://www.behance.net/FedericaFragapane).
 
 ---
 
 ## Install
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/information-designer
-```
-
-Install all skills at once:
-
-```bash
 npx skills add YOUR_GITHUB_USERNAME/information-designer --all
 ```
 
-Install specific skills only:
+Or pick only what you need:
 
 ```bash
 npx skills add YOUR_GITHUB_USERNAME/information-designer --skill data-narrative,color-semantics
 ```
 
-Restore from lock file (for teams sharing the same skill set):
+Restore a team's exact skill set from the lock file:
 
 ```bash
 npx skills experimental_install
@@ -34,65 +28,83 @@ npx skills experimental_install
 
 ## Skills
 
-### `data-narrative`
-Structure raw data as a visual story with a three-beat arc: context, revelation, implication. Defines the information hierarchy before any visual decision is made.
+| Skill | What it covers |
+|-------|---------------|
+| [`data-narrative`](#data-narrative) | Story structure, information hierarchy, form selection |
+| [`geometric-encoding`](#geometric-encoding) | Mapping data to shape, angle, radius, and area |
+| [`color-semantics`](#color-semantics) | Palettes, semantic roles, accessibility |
+| [`typographic-structure`](#typographic-structure) | Hierarchy, labels, annotation writing, typeface selection |
+| [`custom-svg-viz`](#custom-svg-viz) | Bespoke SVG construction, computed geometry, print export |
+| [`data-annotation`](#data-annotation) | Editorial annotations that interpret, not just describe |
+| [`layout-composition`](#layout-composition) | Grid systems, visual weight, white space, multi-format |
 
-**Use when**: turning a dataset into an infographic, editorial piece, or visual essay.
+---
+
+### `data-narrative`
+
+Structure raw data as a visual story with a three-beat arc: context → revelation → implication. Covers information hierarchy, form selection by data nature, and working process from headline to final form.
+
+**Trigger**: "make this data tell a story", "build an infographic", "visualize this dataset"
 
 ---
 
 ### `geometric-encoding`
-Map data dimensions to geometric primitives — circles, arcs, radii, angles, organic forms. Covers radial layouts, SVG path construction, and perceptual accuracy of visual encodings.
 
-**Use when**: designing a custom, non-standard visualization or choosing how to visually represent a dataset.
+Map data dimensions to geometric primitives — circles, arcs, radii, angles, organic forms. Covers radial layout construction, SVG path math, perceptual accuracy of encodings, and the principle of encoding restraint.
+
+**Trigger**: "custom visualization", "radial chart", "geometric data design", "non-standard chart"
 
 ---
 
 ### `color-semantics`
-Design intentional color systems: categorical palettes, sequential/diverging scales, semantic color roles. Includes accessibility requirements and editorial color philosophy.
 
-**Use when**: choosing or auditing color in a data visualization or infographic.
+Design intentional color systems with defined roles for every hue. Covers categorical, sequential, and diverging palettes; WCAG accessibility; grayscale compatibility; and the editorial philosophy behind restrained, purposeful color.
+
+**Trigger**: "color palette", "accessible colors", "color for data", "color scheme"
 
 ---
 
 ### `typographic-structure`
-Typography as a structural element: four-level hierarchy, direct labeling, annotation writing, typeface selection, and number formatting for data contexts.
 
-**Use when**: placing text within or alongside data visualizations.
+Typography as a structural and aesthetic element: a four-level hierarchy, direct labeling over legends, annotation voice, typeface selection for data contexts, and tabular number formatting.
+
+**Trigger**: "font choice", "label placement", "text in chart", "typography for data"
 
 ---
 
 ### `custom-svg-viz`
-Build bespoke SVG data visualizations with complete layout control — coordinate systems, computed geometry, layer architecture, and print-export standards.
 
-**Use when**: standard chart libraries cannot achieve the required visual form, or when print-quality SVG output is needed.
+Build bespoke SVG visualizations with complete control — canvas setup, layer architecture, coordinate computation, polar-to-Cartesian math, and print-quality export standards. Covers when to build custom versus use a library.
+
+**Trigger**: "custom SVG", "hand-crafted viz", "D3 chart", "print-ready infographic"
 
 ---
 
 ### `data-annotation`
-Write and place strategic annotations that guide interpretation — distinguishing labels from annotations from titles, writing with editorial voice, and sequencing for visual flow.
 
-**Use when**: a visualization needs to move from descriptive to interpretive.
+Write and place annotations that guide interpretation rather than repeat what the geometry already shows. Covers the distinction between title, label, annotation, and caption — with editorial voice, placement rules, and a revision checklist.
+
+**Trigger**: "add annotations", "highlight this point", "make the chart argue", "editorial callout"
 
 ---
 
 ### `layout-composition`
-Visual composition principles: grid systems, white space, visual weight hierarchy, and multi-format adaptation (editorial, social, print, screen).
 
-**Use when**: designing the overall layout of an infographic, data report, or multi-panel dashboard.
+Orchestrate multiple elements into a coherent whole using column and modular grids, visual weight hierarchy, and active white space. Includes the three-second test, composition patterns, and multi-format adaptation (print, editorial, social, screen).
+
+**Trigger**: "layout", "composition", "grid", "how to arrange", "white space"
 
 ---
 
 ## Philosophy
 
-> "Information design is not charting data — it is authoring a point of view with data."
+> Information design is not charting data. It is authoring a point of view with data.
 
-These skills encode a specific practice of information design:
-- **Form follows data nature**, not convention
-- **Restraint is a decision**, not a limitation
-- **Every element encodes meaning** or is removed
-- **Typography and geometry are equal partners**
-- **The reader's experience is the only measure**
+- Form follows the nature of the data, not convention
+- Restraint is a design decision, not a limitation
+- Every element encodes meaning or is removed
+- Typography and geometry are equal partners
+- The reader's experience is the only measure of success
 
 ---
 
